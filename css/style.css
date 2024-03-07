@@ -157,9 +157,39 @@ img {
     width: 80%;
     margin: 15px 0;
 
+    /* Debug */
     height: 300px;
     background-color: aliceblue;
 
+}
+
+
+.fifth-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: tan;
+}
+
+.info-desc{
+    width: 80%;
+
+    margin: 10px;
+
+    /* Debug */
+    height: 300px;
+    background-color: darkgoldenrod;
+}
+
+.info{
+    width: 80%;
+    margin: 10px;
+
+
+    /* Debug */
+    height: 150px;
+    background-color: darkgoldenrod;
 }
 
 @media screen and (min-width: 768px) {
@@ -189,6 +219,20 @@ img {
         justify-content: center;
         width: calc(92% / 2);
         margin: 15px;
+    }
+
+    .fifth-section{
+        flex-direction: row;
+        align-items: start;
+    }
+
+    .info-desc{
+        width: 70%;
+
+    }
+
+    .info{
+        width: 30%;
     }
     
 }
