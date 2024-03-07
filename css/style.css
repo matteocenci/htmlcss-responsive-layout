@@ -212,6 +212,21 @@ img {
     background-color: turquoise;
 }
 
+.footer-container{
+    display: flex;
+    justify-content: center;
+
+    background-color: #2222;
+}
+
+.content{
+    width: 60%;
+    margin: 15px 0;
+
+    height: 100px;
+    background-color: sienna;
+}
+
 @media screen and (min-width: 768px) {
     .first-section{
         flex-direction: row;
