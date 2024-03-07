@@ -192,6 +192,26 @@ img {
     background-color: darkgoldenrod;
 }
 
+.sixth-section{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+
+    /* Debug */
+    background-color: thistle;
+
+
+}
+
+.get-started{
+    width: 60%;
+    margin: 15px 0;
+
+    /* Debug */
+    height: 200px;
+    background-color: turquoise;
+}
+
 @media screen and (min-width: 768px) {
     .first-section{
         flex-direction: row;
