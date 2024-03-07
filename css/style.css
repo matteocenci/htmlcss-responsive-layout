@@ -27,3 +27,30 @@ img {
 
 }
 
+.nav{
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+
+    
+}
+
+@media screen and (min-width: 992px){
+    .hamburger-menu{
+        display: none;
+
+    }
+
+    .nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        list-style: none;
+    }
+
+    .nav a{
+        margin: 10px;
+    }
+}
