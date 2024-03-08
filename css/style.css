@@ -3,7 +3,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "PT Sans";
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 img {
@@ -16,22 +18,37 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px;
+    padding: 20px;
     width: 100vw;
+    background-color: #0084FD;
 
     /* Debug */
-    height: 10vh;
-    background-color: aqua;
+    /* height: 10vh; */
 }
 
 .hamburger-menu i {
     font-size: 25px;
+    color: #f5f5f5
 
 }
 
 .nav{
     display: none;
 }
+
+.nav a{
+    text-decoration: none;
+    color: #f5f5f5;
+    font-size: 18px;
+}
+
+#start{
+    background-color: #f5f5f5;
+    padding: 8px 10px;
+    color: black;
+    border-radius: 20px;
+}
+
 
 /* /Header */
 
@@ -54,6 +71,8 @@ img {
         
         list-style: none;
     }
+
+    
     
     .nav a{
         margin: 10px;
