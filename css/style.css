@@ -88,23 +88,83 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    background-color: #f5f5f5;
     
 
 
     /* Debug */
     /* height: 100vh; */
-    background-color: aquamarine;
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    /* padding-bottom: 0; */
+    justify-content: start;
     width: 300px;
+    height: 500px;
     
-    margin-top: 15px;
-    margin-bottom: 5px;
+    margin: 15px;
+    background-color: #B5DDFF;
+    border-radius: 30px;
+    text-align: center;
+    
 
     /* Debug */
-    height: 300px;
-    background-color: brown;
+    /* height: 300px; */
+}
+
+.card h3{
+    color: #0084FD;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.card a, .card img, .card h3 {
+    margin-top: 15px;
+}
+
+.card img{
+    width: 60%;
+    height: 60%;
+    /* padding: 20px; */
+    text-align: left;
+
+}
+
+.card span{
+    margin-bottom: 18px;
+}
+
+.card i{
+    font-size: 80px;
+    color: #0084FD;
+
+}
+
+.large{
+    text-align: start;
+    justify-content: start;
+    align-items: start;
+}
+
+
+.apple-store{
+    background-color: #0084FD;
+    color: #f5f5f5;
+    text-decoration: none;
+    padding: 8px 60px;
+    border-radius: 16px;
+    font-size: 18px;
+}
+
+.apple-store i{
+    font-size: 16px;
+    color: #f5f5f5;
 }
 
 .second-section{
@@ -254,12 +314,17 @@ img {
         padding: 5px;
     }
 
+    .card img{
+        width: 50%;
+    }
+
     .card{
         width: calc(90% / 3);
         margin: 5px;
     }
 
     .large{
+        
         width: calc((92% /3)*2);
     }
 
@@ -294,6 +359,11 @@ img {
 @media screen and (min-width: 992px){
     .first-section{
         padding: 5px 100px;
+    }
+
+    .card img {
+        display: inline-block;
+        
     }
 
     .second-section{
