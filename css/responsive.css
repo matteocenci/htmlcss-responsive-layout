@@ -59,6 +59,15 @@
     .white i{
         width: 11%;
     }
+
+    .expert{
+        width: 90%;
+        flex-direction: row;
+    }
+
+    .testimonial{
+        margin-bottom: 0;
+    }
     
 }
 
@@ -121,5 +130,10 @@
 
     .white i{
         width: 16%;
+    }
+
+    .expert {
+        width: 60%;
+        
     }
 }
