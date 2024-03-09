@@ -15,6 +15,7 @@
     .card{
         width: calc(90% / 3);
         margin: 5px;
+        padding: 4px;
     }
 
     .large{
@@ -47,6 +48,17 @@
     .info{
         width: 30%;
     }
+
+    .arrow{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 10px;
+    }
+
+    .white i{
+        width: 11%;
+    }
     
 }
 
@@ -73,21 +85,19 @@
     .first-section{
         padding: 5px 100px;
     }
-    .card{
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
+    
 
     .card span{
         width: 60%;
+        margin-bottom: 30px;
     }
 
     .large{
-        flex-direction: row;
+        flex-direction: column;
     }
 
     .img-992{
-        width: 40%;
+        width: 37%;
         
     }
 
@@ -107,5 +117,9 @@
         justify-content: center;
         width: calc(90% / 3);
         margin: 15px;
+    }
+
+    .white i{
+        width: 16%;
     }
 }
