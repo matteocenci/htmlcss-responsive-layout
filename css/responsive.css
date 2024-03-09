@@ -1,0 +1,111 @@
+@media screen and (min-width: 768px) {
+    .first-section{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 5px;
+    }
+
+    .img-992{
+        margin-top: 19px;
+        align-items: end;
+        width: 45%;
+    }
+
+    .card{
+        width: calc(90% / 3);
+        margin: 5px;
+    }
+
+    .large{
+        
+        width: calc((92% /3)*2);
+    }
+
+    .fourth-section{
+        flex-wrap: wrap;
+        flex-direction: row;
+
+    }
+
+    .benefit{
+        justify-content: center;
+        width: calc(92% / 2);
+        margin: 15px;
+    }
+
+    .fifth-section{
+        flex-direction: row;
+        align-items: start;
+    }
+
+    .info-desc{
+        width: 70%;
+
+    }
+
+    .info{
+        width: 30%;
+    }
+    
+}
+
+@media screen and (min-width: 992px){
+    .hamburger-menu{
+        display: none;
+        
+    }
+    
+    .nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        list-style: none;
+    }
+
+    
+    
+    .nav a{
+        margin: 10px;
+    }
+
+    .first-section{
+        padding: 5px 100px;
+    }
+    .card{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .card span{
+        width: 60%;
+    }
+
+    .large{
+        flex-direction: row;
+    }
+
+    .img-992{
+        width: 40%;
+        
+    }
+
+    .second-section{
+        flex-direction: row;
+        padding: 50px;
+    }
+
+    .fourth-section{
+        flex-wrap: wrap;
+        flex-direction: row;
+        padding: 20px;
+
+    }
+
+    .benefit{
+        justify-content: center;
+        width: calc(90% / 3);
+        margin: 15px;
+    }
+}
