@@ -72,6 +72,11 @@
     .fourth-section h2{
         width: 100%;
     }
+
+    .info-img i {
+        top: -59px;
+        right: 25px;
+    }
     
 }
 
@@ -143,5 +148,10 @@
 
     .fourth-section h2{
         width: 100%;
+    }
+
+    .info-img i {
+        top: -85px;
+        right: 35px;
     }
 }
