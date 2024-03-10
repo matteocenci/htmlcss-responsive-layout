@@ -68,6 +68,10 @@
     .testimonial{
         margin-bottom: 0;
     }
+
+    .fourth-section h2{
+        width: 100%;
+    }
     
 }
 
@@ -135,5 +139,9 @@
     .expert {
         width: 60%;
         
+    }
+
+    .fourth-section h2{
+        width: 100%;
     }
 }
